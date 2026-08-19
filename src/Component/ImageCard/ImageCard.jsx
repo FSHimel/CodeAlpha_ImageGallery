@@ -8,7 +8,7 @@ function ImageCard({ image, onClick }) {
       initial={{ opacity: 0, y: 40 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: false }}
-      whileTap={{scale: 0.95}}
+      whileTap={{scale: 0.94}}
       exit={{ opacity: 0, scale: 0.9, y: -20 }}
       transition={{
         duration: 0.3,
