@@ -1,6 +1,6 @@
 import { motion } from "motion/react";
 
-function ImageCard({ image }) {
+function ImageCard({ image, onClick }) {
   return (
     <motion.div
       key={image.id}
@@ -20,7 +20,8 @@ function ImageCard({ image }) {
           ease: "easeOut",
         },
       }}
-      className="shadow-[0_2.8px_2.2px_rgba(0,_0,_0,_0.034),_0_6.7px_5.3px_rgba(0,_0,_0,_0.048),_0_12.5px_10px_rgba(0,_0,_0,_0.06),_0_22.3px_17.9px_rgba(0,_0,_0,_0.072),_0_41.8px_33.4px_rgba(0,_0,_0,_0.086),_0_100px_80px_rgba(0,_0,_0,_0.12)] rounded-xl cursor-pointer"
+      onClick={onClick}
+      className="shadow-[0_2.8px_2.2px_rgba(0,0,0,0.034),0_6.7px_5.3px_rgba(0,0,0,0.048),0_12.5px_10px_rgba(0,0,0,0.06),0_22.3px_17.9px_rgba(0,0,0,0.072),0_41.8px_33.4px_rgba(0,0,0,0.086),0_100px_80px_rgba(0,0,0,0.12)] rounded-xl cursor-pointer"
     >
       <img
         src={image.image}

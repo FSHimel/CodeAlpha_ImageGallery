@@ -1,11 +1,16 @@
-// import { motion } from "motion/react";
+import { motion } from "motion/react";
 
 const Header = () => {
   return (
     <div>
-      <h2 className="text-[#495050] text-center text-4xl md:text-5xl lg:text-6xl font-bold">
+      <motion.h2
+        initial={{ opacity: 0, y: -120 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 1, ease: "easeOut" }}
+        className="text-[#495050] text-center text-4xl md:text-5xl lg:text-6xl font-bold"
+      >
         This is art gallery
-      </h2>
+      </motion.h2>
     </div>
   );
 };
