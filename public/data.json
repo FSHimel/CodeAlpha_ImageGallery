@@ -3,96 +3,96 @@
     "id": 1,
     "title": "Misty Mountain",
     "category": "Nature",
-    "image": "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b"
+    "image": "../src/assets/1.jfif"
   },
   {
     "id": 2,
     "title": "Green Forest",
     "category": "Nature",
-    "image": "https://images.unsplash.com/photo-1448375240586-882707db888b"
+    "image": "../src/assets/2.jfif"
   },
   {
     "id": 3,
     "title": "Mountain Lake",
     "category": "Nature",
-    "image": "https://images.unsplash.com/photo-1439853949127-fa647821eba0"
+    "image": "../src/assets/3.jfif"
   },
   {
     "id": 4,
     "title": "Waterfall",
     "category": "Nature",
-    "image": "https://images.unsplash.com/photo-1433086966358-54859d0ed716"
+    "image": "../src/assets/4.jfif"
   },
   {
     "id": 5,
     "title": "Wild Lion",
     "category": "Animals",
-    "image": "https://images.unsplash.com/photo-1546182990-dffeafbe841d"
+    "image": "../src/assets/5.jfif"
   },
   {
     "id": 6,
     "title": "Elephant",
     "category": "Animals",
-    "image": "https://images.unsplash.com/photo-1557050543-4d5f4e07ef46"
+    "image": "../src/assets/6.jfif"
   },
   {
     "id": 7,
     "title": "Brown Bear",
     "category": "Animals",
-    "image": "https://images.unsplash.com/photo-1568162603664-fcd658421851"
+    "image": "../src/assets/7.jfif"
   },
   {
     "id": 8,
     "title": "Beautiful Fox",
     "category": "Animals",
-    "image": "https://images.unsplash.com/photo-1474511320723-9a56873867b5"
+    "image": "../src/assets/8.jfif"
   },
   {
     "id": 9,
     "title": "New York City",
     "category": "Travel",
-    "image": "https://images.unsplash.com/photo-1485871981521-5b1fd3805eee"
+    "image": "../src/assets/9.jfif"
   },
   {
     "id": 10,
     "title": "Santorini",
     "category": "Travel",
-    "image": "https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff"
+    "image": "../src/assets/10.jfif"
   },
   {
     "id": 11,
     "title": "Paris",
     "category": "Travel",
-    "image": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34"
+    "image": "../src/assets/11.jfif"
   },
   {
     "id": 12,
     "title": "Tokyo",
     "category": "Travel",
-    "image": "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf"
+    "image": "../src/assets/12.jfif"
   },
   {
     "id": 13,
     "title": "Modern Architecture",
     "category": "Architecture",
-    "image": "https://images.unsplash.com/photo-1487958449943-2429e8be8625"
+    "image": "../src/assets/13.jfif"
   },
   {
     "id": 14,
     "title": "Glass Building",
     "category": "Architecture",
-    "image": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab"
+    "image": "../src/assets/14.jfif"
   },
   {
     "id": 15,
     "title": "Modern House",
     "category": "Architecture",
-    "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c"
+    "image": "../src/assets/15.jfif"
   },
   {
     "id": 16,
     "title": "City Building",
     "category": "Architecture",
-    "image": "https://images.unsplash.com/photo-1497366811353-6870744d04b2"
+    "image": "../src/assets/16.jfif"
   }
 ]
