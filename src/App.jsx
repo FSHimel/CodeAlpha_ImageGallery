@@ -3,14 +3,21 @@ import "./App.css";
 import Container from "./Component/Container";
 import Header from "./Component/Header/Header";
 import { AnimatePresence, motion } from "motion/react";
-import { useState } from "react";
-import images from "./../public/data.js";
+import { useEffect, useState } from "react";
 import ImageCard from "./Component/ImageCard/ImageCard.jsx";
 import { IoChevronBack, IoChevronForward, IoClose } from "react-icons/io5";
 
 const categories = ["All", "Nature", "Animals", "Travel", "Architecture"];
 
 function App() {
+  const [images, setImages] = useState([]);
+
+  useEffect(() => {
+    fetch("/data.json")
+      .then((res) => res.json())
+      .then((data) => setImages(data));
+  }, []);
+
   const [selectedCategory, setSelectedCategory] = useState("All");
   const [selectedIndex, setSelectedIndex] = useState(null);
 
