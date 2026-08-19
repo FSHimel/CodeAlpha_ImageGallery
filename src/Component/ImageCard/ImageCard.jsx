@@ -8,7 +8,7 @@ function ImageCard({ image, onClick }) {
       initial={{ opacity: 0, y: 40 }}
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: false }}
-      whileTap={{scale: 0.94}}
+      whileTap={{ scale: 0.94 }}
       exit={{ opacity: 0, scale: 0.9, y: -20 }}
       transition={{
         duration: 0.3,
@@ -27,6 +27,10 @@ function ImageCard({ image, onClick }) {
       <img
         src={image.image}
         alt={image.title}
+        loading="lazy"
+        decoding="async"
+        width="800"
+        height="600"
         className="w-full h-80 rounded-xl"
       />
       <div className="my-3 flex justify-between items-center px-3">
