@@ -87,7 +87,7 @@ function App() {
                 <motion.button
                   onClick={() => setSelectedCategory(category)}
                   whileTap={{ scale: 0.95 }}
-                  className={`px-1 py-3 ${
+                  className={`px-1 py-3 w-full text-start ${
                     selectedCategory === category ? "font-bold text-black" : ""
                   }`}
                 >
