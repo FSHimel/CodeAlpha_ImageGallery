@@ -3,96 +3,96 @@
     "id": 1,
     "title": "Misty Mountain",
     "category": "Nature",
-    "image": "../src/assets/1.jfif"
+    "image": "./Images/1.jfif"
   },
   {
     "id": 2,
     "title": "Green Forest",
     "category": "Nature",
-    "image": "../src/assets/2.jfif"
+    "image": "./Images/2.jfif"
   },
   {
     "id": 3,
     "title": "Mountain Lake",
     "category": "Nature",
-    "image": "../src/assets/3.jfif"
+    "image": "./Images/3.jfif"
   },
   {
     "id": 4,
     "title": "Waterfall",
     "category": "Nature",
-    "image": "../src/assets/4.jfif"
+    "image": "./Images/4.jfif"
   },
   {
     "id": 5,
     "title": "Wild Lion",
     "category": "Animals",
-    "image": "../src/assets/5.jfif"
+    "image": "./Images/5.jfif"
   },
   {
     "id": 6,
     "title": "Elephant",
     "category": "Animals",
-    "image": "../src/assets/6.jfif"
+    "image": "./Images/6.jfif"
   },
   {
     "id": 7,
     "title": "Brown Bear",
     "category": "Animals",
-    "image": "../src/assets/7.jfif"
+    "image": "./Images/7.jfif"
   },
   {
     "id": 8,
     "title": "Beautiful Fox",
     "category": "Animals",
-    "image": "../src/assets/8.jfif"
+    "image": "./Images/8.jfif"
   },
   {
     "id": 9,
     "title": "New York City",
     "category": "Travel",
-    "image": "../src/assets/9.jfif"
+    "image": "./Images/9.jfif"
   },
   {
     "id": 10,
     "title": "Santorini",
     "category": "Travel",
-    "image": "../src/assets/10.jfif"
+    "image": "./Images/10.jfif"
   },
   {
     "id": 11,
     "title": "Paris",
     "category": "Travel",
-    "image": "../src/assets/11.jfif"
+    "image": "./Images/11.jfif"
   },
   {
     "id": 12,
     "title": "Tokyo",
     "category": "Travel",
-    "image": "../src/assets/12.jfif"
+    "image": "./Images/12.jfif"
   },
   {
     "id": 13,
     "title": "Modern Architecture",
     "category": "Architecture",
-    "image": "../src/assets/13.jfif"
+    "image": "./Images/13.jfif"
   },
   {
     "id": 14,
     "title": "Glass Building",
     "category": "Architecture",
-    "image": "../src/assets/14.jfif"
+    "image": "./Images/14.jfif"
   },
   {
     "id": 15,
     "title": "Modern House",
     "category": "Architecture",
-    "image": "../src/assets/15.jfif"
+    "image": "./Images/15.jfif"
   },
   {
     "id": 16,
     "title": "City Building",
     "category": "Architecture",
-    "image": "../src/assets/16.jfif"
+    "image": "./Images/16.jfif"
   }
 ]
